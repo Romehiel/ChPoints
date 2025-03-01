@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos</title>
+    <style>
+.ejemplostart{
+    display: flex;
+    justify-content: flex-start;
+    background-color: brown;
+}
+
+.ejemploend {
+    display: flex;
+    justify-content: flex-end;
+    background-color: green;
+    
+}
+
+.ejemplocentro{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    font-size: 10em;
+}
+
+.ejemplospace{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+    color: yellow;
+
+}
+
+.ejemplorow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+
+}
+
+.ejemplocolumn {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+
+.ejemplocolumn p{
+    background-color: orangered;
+    
+}
+
+.ejemploinherit {
+    display: flex;
+    flex-direction: inherit;
+}
+
+.space {
+    padding: 15px;
+    background-color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="ejemplostart">
+        <p>Caballo 1</p>
+        <p>Caballo 2</p>
+        <p>Caballo 3</p>
+    </div>
+
+    <div class="space"></div>
+    
+    <div class="ejemploend">
+        <p>Elefante 1</p>
+        <p>Elefante 2</p>
+        <p>Elefante 3</p>
+    </div>
+
+    <div class="space"></div>
+
+    <div class="ejemplocentro">
+        <p>A</p>
+    </div>
+
+    <div class="space">
+   </div>
+
+   <div class="ejemplospace">
+    <p>Do</p>
+    <p>you</p>
+    <p>understand?</p>
+   </div>
+
+<div class="space"></div>
+
+<div class="ejemplorow">
+    <p>Dorica</p>
+    <p>Jonica</p>
+    <p>Corintia</p>
+</div>
+<div class="space"></div>
+<div class="ejemplocolumn">
+    <p>ladrillo</p>
+    <p>ladrillo</p>
+    <p>ladrillo</p>
+    <div class="space"></div>
+    <div class="ejemploinherit">
+        <p>piedra</p>
+        <p>piedra</p>
+        <p>piedra</p>
+    </div>
+</div>
+
+<div class="space"></div>
+
+</div>
+</body>
+</html>
