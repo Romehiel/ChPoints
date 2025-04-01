@@ -48,5 +48,5 @@ print(da_list)
 
 # Exercise 9: Use reassignment to add an element to your tuple.
 
-thy_tuple = thy_tuple + ('Neci',)
+thy_tuple  += ('Neci',)
 print(thy_tuple)
